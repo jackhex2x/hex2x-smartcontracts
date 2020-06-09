@@ -7,6 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "compile": "node_modules/.bin/truffle compile",
+    "startGanache": ". scripts/startGanache.sh",
+    "deploy": "node_modules/.bin/truffle deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +23,7 @@
   },
   "homepage": "https://github.com/somish/hex2x-smartcontracts#readme",
   "devDependencies": {
+    "ganache-cli": "^6.9.1",
     "truffle": "^5.1.27"
   }
 }
