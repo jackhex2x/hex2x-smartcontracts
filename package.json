@@ -1,0 +1,25 @@
+{
+  "name": "hex2x-smartcontracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somish/hex2x-smartcontracts.git"
+  },
+  "author": "tech-somish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/somish/hex2x-smartcontracts/issues"
+  },
+  "homepage": "https://github.com/somish/hex2x-smartcontracts#readme",
+  "devDependencies": {
+    "truffle": "^5.1.27"
+  }
+}
