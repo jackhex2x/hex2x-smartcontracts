@@ -23,7 +23,12 @@
   },
   "homepage": "https://github.com/somish/hex2x-smartcontracts#readme",
   "devDependencies": {
-    "ganache-cli": "^6.9.1",
-    "truffle": "^5.1.27"
+    "chai": "4.1.2",
+    "chai-bignumber": "2.0.2",
+    "ethereumjs-abi": "0.6.5",
+    "ganache-cli": "6.9.1",
+    "pify": "^5.0.0",
+    "truffle": "5.1.27",
+    "web3": "0.20.7"
   }
 }
