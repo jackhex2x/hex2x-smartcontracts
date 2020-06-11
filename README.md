@@ -46,3 +46,11 @@ Then, you can deploy your Hex2X Token using the migrate script.
 ```
 npm run deploy
 ```
+If you want, you can run the test cases using
+```
+npm run test
+```
+And run generate the coverage report using
+```
+npm run coverage
+```
