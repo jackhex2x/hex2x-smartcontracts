@@ -71,18 +71,6 @@ contract ERC20 is IERC20 {
     }
 
     /**
-     * @dev See {IERC20-approve}.
-     *
-     * Requirements:
-     *
-     * - `spender` cannot be the zero address.
-     */
-    function approve(address spender, uint256 amount) public returns (bool) {
-        _approve(msg.sender, spender, amount);
-        return true;
-    }
-
-    /**
      * @dev See {IERC20-transferFrom}.
      *
      * Emits an {Approval} event indicating the updated allowance. This is not
