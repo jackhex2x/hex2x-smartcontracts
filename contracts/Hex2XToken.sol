@@ -5,7 +5,7 @@ import "./external/openzeppelin-solidity/ownership/Ownable.sol";
 
 contract Hex2XToken is ERC20Detailed, Ownable {
 
-    constructor() public ERC20Detailed("H2X","H2X",18) {
+    constructor() public ERC20Detailed("Hex2X","H2X",18) {
     }
 
     /*
