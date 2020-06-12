@@ -12,8 +12,8 @@ require('chai')
 let hex2xToken;
 let accounts = [];
 const _tokenName = "Hex2X";
-const _tokenSymbol = "H2X";
-const _tokenDecimals = 18;
+const _tokenSymbol = "Hex2X";
+const _tokenDecimals = 8;
 const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 
 contract('Hex2XToken', function([
