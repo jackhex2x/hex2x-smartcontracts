@@ -1,11 +1,15 @@
 pragma solidity 0.5.7;
 
-import "./external/openzeppelin-solidity/token/ERC20/ERC20Detailed.sol";
+import "./external/openzeppelin-solidity/token/ERC20/ERC20.sol";
 import "./external/openzeppelin-solidity/ownership/Ownable.sol";
 
-contract Hex2XToken is ERC20Detailed, Ownable {
+contract Hex2XToken is ERC20, Ownable {
 
-    constructor() public ERC20Detailed("Hex2X","H2X",18) {
+    string public constant name = "Hex2X";
+    string public constant symbol = "Hex2X";
+    uint8 public constant decimals = 8;
+
+    constructor() public {
     }
 
     /*
